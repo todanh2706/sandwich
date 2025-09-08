@@ -2,18 +2,23 @@ export default function Introduction() {
     return (
         <section
             className="product-intro max-w-4xl mx-auto bg-orange-50 p-6 rounded-xl"
-            style={{ backgroundImage: "url('/bg-sandwich.jpg')" }}
+            style={{
+                backgroundImage: "url('./bg-sandwich.jpg')",
+                backgroundPosition: "center -100px",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+            }}
         >
-            <div className="relative w-4/5 max-w-4xl mx-auto bg-yellow-100 rounded-2xl shadow-lg p-6 flex gap-6">
+            <div className="relative w-4/5 max-w-4xl mx-auto bg-yellow-100 bg-opacity-70 rounded-2xl shadow-lg p-6 flex gap-6">
 
                 <div className="flex flex-col gap-4 w-1/3">
                     <img
-                        src="/cuden.jpg"
+                        src="./cuden.jpg"
                         alt="Củ dền"
                         className="rounded-xl shadow-md"
                     />
                     <img
-                        src="/sandwich.jpg"
+                        src="./sandwich.jpg"
                         alt="Sandwich củ dền"
                         className="rounded-xl shadow-md"
                     />

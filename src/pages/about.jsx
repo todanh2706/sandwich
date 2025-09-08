@@ -9,7 +9,7 @@ export default function About() {
             id: "12345678",
             email: "a@example.com",
             facebook: "https://www.facebook.com/khanh.vy.517211",
-            avatar: "/12345678.jpg",
+            avatar: "./12345678.jpg",
         },
 
     ];
