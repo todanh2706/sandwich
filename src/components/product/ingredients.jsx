@@ -15,17 +15,16 @@ export default function Ingredients() {
                 <div className="grid grid-cols-2 gap-6">
                     <ul className="list-disc list-inside space-y-1">
                         <li>Bột mì số 13 (250g)</li>
-                        <li>Trứng (35g)</li>
-                        <li>Đường cát (40g)</li>
-                        <li>Nước (45g)</li>
-                        <li>Sữa (25g)</li>
-                    </ul>
-
-                    <ul className="list-disc list-inside space-y-1 border-l-2 border-yellow-600 pl-6">
-                        <li>Men nở (4g)</li>
-                        <li>Bơ nhạt (25g)</li>
-                        <li>Muối (3g)</li>
                         <li>Nước ép củ dền (45g)</li>
+                        <li>Nước (45g)</li>
+                        <li>Đường cát (40g)</li>
+                        <li>Trứng (35g)</li>
+                    </ul>
+                    <ul className="list-disc list-inside space-y-1 border-l-2 border-yellow-600 pl-6">
+                        <li>Bơ nhạt (25g)</li>
+                        <li>Sữa (25g)</li>
+                        <li>Men nở (4g)</li>
+                        <li>Muối (3g)</li>
                     </ul>
                 </div>
             </div>

@@ -60,6 +60,16 @@ export default function About() {
                     </div>
                 </section>
             </Motion.div>
+            <Motion.div
+                key="header"
+                initial={false}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 1 }}
+            >
+                <footer className="text-center text-gray-500 text-sm py-6">
+                    © 2025 Radwich Sandwich. All rights reserved.
+                </footer>
+            </Motion.div>
         </>
     );
 }

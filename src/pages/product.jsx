@@ -33,9 +33,19 @@ export default function Product() {
                 <hr className="border-t-2 border-dashed border-gray-400 mx-auto w-4/5" />
                 <Ingredients />
                 <hr className="border-t-2 border-dashed border-gray-400 mx-auto w-4/5" />
-                <Video />
-                <hr className="border-t-2 border-dashed border-gray-400 mx-auto w-4/5" />
                 <Diagram />
+                <hr className="border-t-2 border-dashed border-gray-400 mx-auto w-4/5" />
+                <Video />
+            </Motion.div>
+            <Motion.div
+                key="header"
+                initial={false}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 1 }}
+            >
+                <footer className="text-center text-gray-500 text-sm py-6">
+                    © 2025 Radwich - Beetroot sandwich. All rights reserved.
+                </footer>
             </Motion.div>
         </div>
     );
