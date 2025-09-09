@@ -1,7 +1,7 @@
 export default function Introduction() {
     return (
         <section
-            className="product-intro max-w-4xl mx-auto bg-orange-50 p-6 rounded-xl"
+            className="product-intro max-w-4xl mx-auto bg-orange-50 p-6 rounded-xl mb-8"
             style={{
                 backgroundImage: "url('./bg-sandwich.jpg')",
                 backgroundPosition: "center -100px",

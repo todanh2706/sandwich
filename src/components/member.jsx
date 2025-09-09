@@ -1,4 +1,4 @@
-export default function MemberCard({ avatar, name, id, email, facebook }) {
+export default function MemberCard({ avatar, name, id }) {
     return (
         <div className="bg-white rounded-2xl shadow-md p-6 flex flex-col items-center text-center gap-3">
             {/* Avatar */}
@@ -12,11 +12,11 @@ export default function MemberCard({ avatar, name, id, email, facebook }) {
             <div>
                 <h3 className="text-xl font-bold text-gray-800">{name}</h3>
                 <p className="text-sm text-gray-500">MSSV: {id}</p>
-                <p className="text-sm text-gray-500">{email}</p>
+                {/* <p className="text-sm text-gray-500">{email}</p> */}
             </div>
 
             {/* Social links */}
-            <div className="flex gap-4 mt-2">
+            {/* <div className="flex gap-4 mt-2">
                 <a
                     href={facebook}
                     target="_blank"
@@ -25,7 +25,7 @@ export default function MemberCard({ avatar, name, id, email, facebook }) {
                 >
                     Facebook
                 </a>
-            </div>
+            </div> */}
         </div>
     );
 }

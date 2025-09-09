@@ -1,10 +1,5 @@
 export default function Ingredients() {
     return (
-        // <section className="bg-orange-100 p-6 rounded-xl">
-        //     <div className="relative max-w-5xl mx-auto bg-[#fff3e0] rounded-2xl shadow-lg p-6 flex gap-6">
-        //         <p className=""></p>
-        //     </div>
-        // </section >
         <section className="bg-orange-100 p-5 rounded-xl">
             <div className="bg-yellow-100 rounded-xl p-6 max-w-3xl mx-auto">
                 {/* Tiêu đề */}
