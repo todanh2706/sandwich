@@ -7,8 +7,8 @@ export default function About() {
     const members = [
         {
             name: "Phạm Hoàng Bảo Thái",
-            id: "23116104",
-            avatar: "./23116104.jpg"
+            id: "23116103",
+            avatar: "./23116103.jpg"
         },
         {
             name: "Lê Minh Thư",
