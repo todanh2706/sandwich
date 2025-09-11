@@ -8,7 +8,8 @@ export default function Video() {
                 <div className="flex-1">
                     <iframe
                         className="w-full h-64 md:h-full"
-                        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                        // src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                        src=""
                         title="How Radwich is Made"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -20,7 +21,8 @@ export default function Video() {
                 <div className="flex flex-col justify-center items-center flex-1 p-6 bg-yellow-100">
                     <h2 className="text-xl font-semibold mb-4">How Radwich is Made</h2>
                     <a
-                        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                        // href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                        src=""
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-6 py-3 rounded-full bg-orange-300 text-gray-800 font-semibold hover:bg-orange-400 transition-colors duration-200"
