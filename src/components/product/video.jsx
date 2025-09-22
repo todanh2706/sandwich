@@ -9,7 +9,7 @@ export default function Video() {
                     <iframe
                         className="w-full h-64 md:h-full"
                         // src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                        src="https://www.youtube.com/watch?v=95tANHqwzAc"
+                        src="https://www.youtube.com/embed/95tANHqwzAc"
                         title="How Radwich is Made"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
