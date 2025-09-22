@@ -9,7 +9,7 @@ export default function Video() {
                     <iframe
                         className="w-full h-64 md:h-full"
                         // src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                        src=""
+                        src="https://www.youtube.com/watch?v=95tANHqwzAc"
                         title="How Radwich is Made"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -22,7 +22,7 @@ export default function Video() {
                     <h2 className="text-xl font-semibold mb-4">How Radwich is Made</h2>
                     <a
                         // href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                        src=""
+                        src="https://www.youtube.com/watch?v=95tANHqwzAc"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="px-6 py-3 rounded-full bg-orange-300 text-gray-800 font-semibold hover:bg-orange-400 transition-colors duration-200"
